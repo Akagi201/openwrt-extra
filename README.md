@@ -10,3 +10,13 @@ Some extra packages for OpenWrt
 ./scripts/feeds update extra
 ./scripts/feeds install -a -p extra
 ```
+
+* Builded opkg feeds: `bin/packages/arm_cortex-a15_neon-vfpv4/extra`
+
+## Online opkg feeds
+* Add `src/gz extra http://opkg.ortc.io` to `/etc/opkg/customfeeds.conf`.
+* `opkg update`
+* `opkg install <extra-package>`
+
+## Package list
+* hellocmake - example project for package built with cmake.
