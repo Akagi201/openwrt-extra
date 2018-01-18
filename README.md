@@ -20,4 +20,3 @@ Some extra packages for OpenWrt
 
 ## Package list
 * hellocmake - example project for package built with cmake.
-* lanc - [Lancaster](https://github.com/Akagi201/lancaster) client.
