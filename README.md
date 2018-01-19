@@ -15,6 +15,7 @@ Some extra packages for OpenWrt
 
 ## Online opkg feeds
 * Add `src/gz extra http://opkg.ortc.io` to `/etc/opkg/customfeeds.conf`.
+* Disable signature verification in `/etc/opkg.conf` by commenting option `option check_signature 1`.
 * `opkg update`
 * `opkg install <extra-package>`
 
