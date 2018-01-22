@@ -14,8 +14,8 @@ Some extra packages for OpenWrt
 * Builded opkg feeds: `bin/packages/arm_cortex-a15_neon-vfpv4/extra`
 
 ## Online opkg feeds
-* Add `src/gz extra http://opkg.ortc.io` to `/etc/opkg/customfeeds.conf`.
-* Disable signature verification in `/etc/opkg.conf` by commenting option `option check_signature 1`.
+* Add `src/gz extra http://opkg.ortc.io/releases/17.01.4/packages/arm_cortex-a15_neon-vfpv4/extra` to `/etc/opkg/customfeeds.conf`.
+* Disable signature verification in `/etc/opkg.conf` by commenting option `option check_signature 1`.1
 * `opkg update`
 * `opkg install <extra-package>`
 
